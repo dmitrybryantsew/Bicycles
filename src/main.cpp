@@ -84,7 +84,7 @@ int main(int argc, char** argv) {
         std::cout << vec4.at(i) <<"\n";
     }
     std::cout << "vec 5 ______________________________________\n";
-    SimpleVector<test, TrackingAllocator<test>> vec5(N, test(228, 228, "babah"));
+    SimpleVector<test, TrackingAllocator<test>> vec5(N, test(22, 24, "letters"));
     for(int i =0;i< N; i++)
         vec5.push_back(test(0+i, 0.0+i, "test747"));
     vec5.push_back(test());
